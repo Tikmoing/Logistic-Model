@@ -50,5 +50,5 @@ This repository have only code file: [LogisticModel.py](https://github.com/Tikmo
   lyapunovExponentDiagram(color="#7bbfea")
   ```
 
-  ![lyapunov exponent diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/lyapunov exponent diagram.png)
+  ![lyapunov exponent diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/lyapunov%20exponent%20diagram.png)
 
