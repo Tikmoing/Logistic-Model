@@ -20,7 +20,7 @@ This repository have only code file: [LogisticModel.py](https://github.com/Tikmo
   iterationDiagram(3.6,0.6,100)
   ```
 
-  ![iteration diagram](C:\Users\86177\Desktop\DataAnlysis\PydataFiles\chaos\iteration diagram.png)
+  ![iteration diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/iteration%20diagram.png)
 
 + ```python
   #bifurcationDiagram(muRange = [2.6,4],initialValue = 0.6,times = 250,stepLength = 0.00001,color = 'b')
