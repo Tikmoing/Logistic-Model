@@ -32,7 +32,7 @@ This repository have only code file: [LogisticModel.py](https://github.com/Tikmo
   bifurcationDiagram()
   ```
 
-  ![bifurcation diagram](C:\Users\86177\Desktop\DataAnlysis\PydataFiles\chaos\bifurcation diagram.png)
+  ![bifurcation diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/bifurcation%20diagram.png)
 
 + ```python
   #lyapunovExponent(mu,initialValue,times)
@@ -50,5 +50,5 @@ This repository have only code file: [LogisticModel.py](https://github.com/Tikmo
   lyapunovExponentDiagram(color="#7bbfea")
   ```
 
-  ![lyapunov exponent diagram](C:\Users\86177\Desktop\DataAnlysis\PydataFiles\chaos\lyapunov exponent diagram.png)
+  ![lyapunov exponent diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/lyapunov exponent diagram.png)
 
