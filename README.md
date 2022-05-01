@@ -4,49 +4,49 @@ The Logistic model is an important example of bifurcation and chaos proposed by 
 
 This repository have only code file: [LogisticModel.py](https://github.com/Tikmoing/Logistic-Model/blob/main/LogisticModel.py),which has  5 functions.
 
-+ ```python
++ ```python3
   #logistic(mu,initialValue,times)
   ```
 
   This is a function which will return the iteration result while the model with the mu and initialValue for times iterating.
 
-+ ```python
++ ```python3
   #iterationDiagram(mu,initialValue,times)
   ```
 
   A function which draw a diagram to represent the iteration.For example 
 
-  ```python
+  ```python3
   iterationDiagram(3.6,0.6,100)
   ```
 
   ![iteration diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/iteration%20diagram.png)
 
-+ ```python
++ ```python3
   #bifurcationDiagram(muRange = [2.6,4],initialValue = 0.6,times = 250,stepLength = 0.00001,color = 'b')
   ```
 
   A function which draw the bifurcation diagram of this model. For example
 
-  ```python
+  ```python3
   bifurcationDiagram()
   ```
 
   ![bifurcation diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/bifurcation%20diagram.png)
 
-+ ```python
++ ```python3
   #lyapunovExponent(mu,initialValue,times)
   ```
 
   A function return the lyapunov exponent
 
-+ ```python
++ ```python3
   #lyapunovExponentDiagram(muRange=[3,4],initialValue = 0.6,times = 250 , stepLength = 0.00001 , color = 'b')
   ```
 
   A function which draw the diagram between mu and its lyapunov exponent. For example,
 
-  ```python
+  ```python3
   lyapunovExponentDiagram(color="#7bbfea")
   ```
 
