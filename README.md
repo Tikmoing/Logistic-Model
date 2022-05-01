@@ -51,4 +51,20 @@ This repository have only code file: [LogisticModel.py](https://github.com/Tikmo
   ```
 
   ![lyapunov exponent diagram](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/lyapunov%20exponent%20diagram.png)
+  
+  ```python3
+  cobwebplot.py
+  ```
+  This is a program for ploting the cobwebplot of the model,you can change the parameters of model or even the model in tht function
+  ```python3
+  def logistic(mu,initialValue,times):
+    res = [initialValue,]
+    for i in range(0,times):
+        res.append(mu * res[-1] * (1 - res[-1]))
+    return [res[-1],res]
+  ```
+  
+  ![cobweb plot](https://raw.githubusercontent.com/Tikmoing/Logistic-Model/main/png/cobwebplot.png)
+  
+
 
