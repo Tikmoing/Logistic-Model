@@ -43,8 +43,8 @@ def bifurcationDiagram(muRange = [2.6,4],initialValue = 0.6,times = 250,stepLeng
     plt.rcParams['axes.unicode_minus'] = False
     plt.figure(figsize=(14,14*0.618))
     
-    plt.plot(mu,res[-2,:],color = color)
-    plt.plot(mu,res[-1,:],color = color)
+    for i in range(1,int(times * 0.1)):
+        plt.scatter(mu,res[-i,:],color = color,s = 1)
 
     plt.title(r"logistic model bifurcation diagram initial value = 0.6",fontsize = 25)
     plt.xticks(fontsize=20)
